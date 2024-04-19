@@ -1,0 +1,164 @@
+body {
+    width: auto;
+    height: 150vh;
+    background-image: url('background2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    -ms-overflow-style: none;
+}
+
+.top1 {
+    font-family: 'Pretendard';
+    font-size: 17px;
+    font-weight: normal;
+    color: #666666; 
+    position: absolute;
+    left: 2%; 
+    top: 3%;
+    transform: none; 
+}
+
+.top2 {
+    font-family: 'Pretendard';
+    font-size: 17px;
+    font-weight: normal;
+    color: #666666; 
+    position: absolute;
+    left: 90%; 
+    top: 3%;
+    transform: none; 
+}
+
+.top3 {
+    font-family: 'Pretendard';
+    font-size: 17px;
+    font-weight: normal;
+    color: #666666; 
+    position: absolute;
+    left: 95%; 
+    top: 3%;
+    transform: none; 
+}
+
+.title {
+    font-family: 'Sunroll';
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    color: #253E8E; 
+    position: absolute;
+    left: 38%; 
+    top: 35%;
+    transform: none;
+}
+
+.text {
+    font-family: 'Pretendard';
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: #2424DD; 
+    position: absolute;
+    left: 41%; 
+    top: 68%;
+    transform: none; 
+}
+
+p {
+    margin: 0%;
+}
+
+
+
+/* 스크롤바 없애기 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 폰트 */
+@font-face {
+    font-family: 'Sunroll';
+    src: url('/font/Sunroll.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/font/Pretendard-Light.otf') format('truetype');
+}
+
+
+@media screen and (max-width: 767px){
+    body {
+        width: auto;
+        height: 150vh;
+        background-image: url('background2.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        
+        -ms-overflow-style: none;
+    }
+    
+    .top1 {
+        font-family: 'Pretendard';
+        font-size: 9px;
+        font-weight: normal;
+        color: #666666; 
+        position: absolute;
+        left: 4%; 
+        top: 3%;
+        transform: none; 
+    }
+    
+    .top2 {
+        font-family: 'Pretendard';
+        font-size: 9px;
+        font-weight: normal;
+        color: #666666; 
+        position: absolute;
+        left: 81%; 
+        top: 3%;
+        transform: none; 
+    }
+    
+    .top3 {
+        font-family: 'Pretendard';
+        font-size: 9px;
+        font-weight: normal;
+        color: #666666; 
+        position: absolute;
+        left: 90%; 
+        top: 3%;
+        transform: none; 
+    }
+    
+    .title {
+        font-family: 'Sunroll';
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #253E8E; 
+        position: absolute;
+        left: 28%; 
+        top: 28%;
+        transform: none;
+    }
+    
+    .text {
+        font-family: 'Pretendard';
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+        color: #2424DD; 
+        position: absolute;
+        left: 31%; 
+        top: 48%;
+        transform: none; 
+    }
+    
+    p {
+        margin: 0%;
+    }
+}
